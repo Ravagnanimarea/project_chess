@@ -1,0 +1,818 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important; 
+
+}
+
+
+.menu-principal {
+    width: 100%;
+    background-color: black;
+    height: 60px;
+}
+
+.main, .content {
+    margin: 0, auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    width: 70%;
+}
+
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.redes-sociais {
+    width: 15%;
+    float:left;
+    padding-left: 115px;
+}
+
+.redes-sociais ul{
+    padding-left: 30px;
+}
+
+.header-2 {
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.menu-urls {
+    border-bottom: 3px solid #efefef;
+    height: 60px;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul {
+    border-bottom: 2px white;
+    margin-left: 340px;
+}
+
+.menu ul li:hover {
+    border-bottom: 1px solid green;
+}
+
+.menu ul li a:hover {
+    color: green;
+
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu {
+    float: left;
+}
+
+.Busca {
+    width: 400px;
+    float: right;
+}
+
+.Busca input {
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    padding: 12px;
+    width: 190px;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+}
+
+.col-100 {
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+
+.marquee{
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.slider-principal {
+    width: 100%;
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    left: 0px;
+    right: 900px;
+    background-color: black;
+
+
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/anterior.png);
+    top: 50%;
+    text-align: center;
+    left: 15%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/proximo.png);
+    top: 50%;
+    right: 15%;
+    text-align: center;
+}
+.slick-list {
+    width: 100%!important;
+}
+
+li.slick-active button {
+    background: white;
+}
+
+.jogo {
+    color: #8b8b8b;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2px;
+    padding-bottom: 40px;
+}
+
+.etapa1 img {
+    float: left;
+    margin-right: 5px;
+    padding-left: 250px;
+    padding-top: 10px;
+}
+
+.etapa1 p{
+    float: right;
+    color: white;
+    width: 600px;
+    margin-right: 40px;
+    margin-top: 130px;
+    text-transform: uppercase;
+    padding-bottom: 30px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align:justify;
+    font-size: 12px;
+}
+
+.etapa1-1 img{
+    float: right;
+    padding-top: 30px;
+    margin-right: 350px;
+    margin-left: 25px;
+}
+
+.etapa1-1 p{
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.etapa2 iframe{
+    float: left;
+    margin-right: 5px;
+    margin-left: 25px;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+.etapa2 p{
+    float: left;
+    color: white;
+    width: 500px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px
+}
+
+.rei img {
+    float: right;
+    padding-top: 50px;
+    margin-right: 350px;
+    margin-left: 25px;
+}
+
+.rei p{
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 160px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.rainha iframe {
+    float: left;
+    margin-right: 5px;
+    margin-left: 25px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.rainha p {
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.rainha1 img {
+    float: right;
+    padding-top: 150px;
+    margin-right: 350px;
+    margin-left: 25px;
+}
+
+.rainha1 p {
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 160px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.torre iframe{
+    float: left;
+    margin-right: 5px;
+    margin-left: 25px;
+    padding-left: 250px;
+    padding-top: 50px;
+
+}
+
+.torre p{
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.torre1 img{
+    float: right;
+    padding-top: 150px;
+    margin-right: 350px;
+    margin-left: 25px;
+}
+
+.torre1 p {
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 160px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.bispo iframe{
+    float: left;
+    margin-right: 5px;
+    margin-left: 25px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.bispo p {
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.bispo1 img {
+    float: right;
+    padding-top: 150px;
+    margin-right: 350px;
+    margin-left: 25px;
+}
+
+.bispo1 p{
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 160px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.cavalo iframe{
+    float: left;
+    margin-right: 5px;
+    margin-left: 25px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.cavalo p {
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.cavalo1 img{
+    float: right;
+    padding-top: 150px;
+    margin-right: 350px;
+    margin-left: 25px;
+}
+
+.cavalo1 p{
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 160px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.peão iframe{
+    float: left;
+    margin-right: 5px;
+    margin-left: 25px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.peão p{
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;  
+}
+
+.peão1 img{
+    float: right;
+    padding-top: 150px;
+    margin-right: 350px;
+    margin-left: 25px;
+}
+
+.peão1 p{
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 160px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.etapa3 iframe {
+    float: left;
+    margin-right: 5px;
+    margin-left: 25px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.etapa3 p {
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;  
+}
+
+.peão_etapa3 img{
+    float: right;
+    padding-top: 150px;
+    margin-right: 350px;
+    margin-left: 25px;
+}
+
+.peão_etapa3 p {
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 160px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.enpassant p {
+    text-align: center;
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    margin-right: 370px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.enpassant1 img{
+    padding-left: 320px;
+}
+
+.enpassant1_1 img{
+    float: right;
+    padding-top: 50px;
+    margin-right: 350px;
+    margin-left: 25px;
+}
+
+.enpassant1_1 p{
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 160px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.enpassant1_2 iframe{
+    float: left;
+    margin-right: 5px;
+    margin-left: 25px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.enpassant1_2 p{
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 120px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;  
+}
+
+.castling iframe{
+    float: left;
+    margin-right: 5px;
+    margin-left: 25px;
+    padding-left: 500px;
+    padding-top: 50px;
+}
+
+.ladorei img{
+    float: right;
+    padding-top: 50px;
+    margin-right: 350px;
+    margin-left: 25px;
+}
+
+.ladorei p{
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 160px;
+    margin-left: 100px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.etapa4{
+    text-align: center;
+    float: right;
+    color: white;
+    width: 730px;
+    margin-top: 30px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    margin-right: 370px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.etapa5 iframe{
+    float: left;
+    margin-right: 5px;
+    margin-left: 25px;
+    padding-left: 250px;
+}
+
+.etapa5 p{
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;  
+}
+
+.xeque iframe{
+    float: right;
+    margin-right: 200px;
+    margin-left: 25px;
+    padding-top: 60px;
+}
+
+.xeque p{
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 160px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.xeque2 iframe{
+    float: left;
+    margin-right: 5px;
+    margin-left: 25px;
+    margin-top: 50px;
+    padding-left: 250px;
+}
+
+.xeque2 p{
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 200px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;  
+}
+
+.xeque3 iframe{
+    float: right;
+    margin-right: 200px;
+    margin-left: 25px;
+    padding-top: 60px;
+}
+
+.xeque3 p{
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 160px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.desenhar img{
+    float: left;
+    margin-right: 5px;
+    margin-left: 200px;
+    margin-top: 70px;
+    padding-left: 250px;
+}
+
+.desenhar p{
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;  
+}
+
+.stalemate iframe{
+    float: left;
+    margin-right: 5px;
+    margin-left: 25px;
+    margin-top: 50px;
+    padding-left: 250px;
+}
+
+.stalemate p{
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;  
+}
+
+.draws iframe{
+    padding-left: 320px;
+    padding-top: 50px;
+    padding-left: 550px;
+}
+
+.etapa6 img{
+    float: left;
+    margin-right: 5px;
+    margin-left: 130px;
+    margin-top: 65px;
+    padding-left: 250px;
+}
+
+.etapa6 p{
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;  
+}
+
+.movingandcapturing iframe{
+    float: right;
+    margin-right: 200px;
+    margin-left: 25px;
+    padding-top: 60px;
+}
+
+.movingandcapturing p{
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 160px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.movingandcapturing1 iframe{
+    float: left;
+    margin-right: 5px;
+    margin-left: 25px;
+    margin-top: 50px;
+    padding-left: 250px;
+}
+
+.movingandcapturing1 p{
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;  
+}
+
+.etapa7 iframe{
+    float: right;
+    margin-right: 200px;
+    margin-left: 25px;
+    padding-top: 60px;
+}
+
+.etapa7 p{
+    float: right;
+    color: white;
+    width: 730px;
+    padding-top: 160px;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 12px;
+}
+
+.variantes img{
+    float: left;
+    margin-right: 5px;
+    margin-left: 130px;
+    margin-top: 120px;
+    padding-left: 100px;
+}
+
+.variantes p{
+    float: left;
+    color: white;
+    width: 600px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;  
+}
+
+

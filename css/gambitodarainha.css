@@ -1,0 +1,168 @@
+.beth_h2 h2{
+    color: #a9a9a9;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.beth_h2 p{
+    color:white;
+    text-align: center;
+}
+
+.beth_h21 h2{
+    color: #a9a9a9;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.beth_h21 p{
+    color:white;
+    text-align: center;
+}
+.gambito_beth{
+    width: 100%;
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    left: 0px;
+    right: 900px;
+    background-color: black;
+
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/anterior.png);
+    top: 50%;
+    text-align: center;
+    left: 15%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/proximo.png);
+    top: 50%;
+    right: 15%;
+    text-align: center;
+}
+.slick-list {
+    width: 100%!important;
+}
+
+li.slick-active button {
+    background: white;
+}
+
+.elenco h2{
+    color: #a9a9a9;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.row {
+    align-items: center;
+    justify-content: center;
+}
+
+.coluna{
+    float: left;
+    padding-right: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: #a9a9a9;
+}
+
+.coluna b{
+    color: white;
+}
+
+.coluna1{
+    float: left;
+    padding-right: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-left: 215px;
+    color: #a9a9a9;
+}
+
+.coluna1 b{
+    color: white;
+}
+
+.colunafinal{
+    margin-right: 15px;
+    color: #a9a9a9;
+}
+
+.colunafinal b{
+    color:white;
+}
+
+.row2 {
+    align-items: center;
+    justify-content: center;
+}
+
+.coluna2{
+    float: left;
+    padding-right: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: #a9a9a9;
+}
+
+.coluna b{
+    color: white;
+}
+
+.coluna2{
+    float: left;
+    padding-right: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-left: 215px;
+    color: #a9a9a9;
+}
+
+.coluna2 b{
+    color: white;
+}
+
+.colunafinal2{
+    margin-right: 10px;
+    padding-top: 18px;
+    color: #a9a9a9;
+}
+
+.colunafinal2 b{
+    color:white;
+}
+
+.netflix{
+    width: 1518px;
+    margin-top: 30px;
+}
+
+.trailer iframe{
+    width: 750px;
+    margin:0 auto;
+    display: block;
+    ;
+}
+.trailer h2{
+    color: #a9a9a9;
+    text-align: center;
+    margin-top: 50px;
+}

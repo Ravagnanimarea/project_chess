@@ -1,0 +1,245 @@
+.aberturas h2{
+    background-color: #2e2e2e;
+    padding-left: 700px;
+}
+
+.jogo-italiano img {
+    float: left;
+    width: 600px;
+    height: 300px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.jogo-italiano h3{
+    color: #A9A9A9;
+    padding-left: 110px;
+}
+
+.jogo-italiano p{
+    float: right;
+    color: white;
+    width: 600px;
+    margin-right: 40px;
+    margin-top: 90px;
+    margin-bottom: 130px;
+    text-transform: uppercase;
+    padding-bottom: 30px; 
+    padding-left: 0px;
+    padding-right: 150px;
+    text-align:justify;
+    font-size: 12px;
+}
+
+.ruy-lopez img{
+    float: left;
+    width: 600px;
+    height: 300px;
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+
+.ruy-lopez h3{
+    color: #A9A9A9;
+    padding-left: 110px;
+}
+
+.ruy-lopez p{
+    float: right;
+    color: white;
+    width: 600px;
+    margin-right: 40px;
+    margin-top: 0px;
+    margin-bottom: 90px;
+    text-transform: uppercase; 
+    padding-left: 0px;
+    padding-right: 150px;
+    text-align:justify;
+    font-size: 12px;
+}
+
+.sistema-london img{
+    float: left;
+    width: 600px;
+    height: 300px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+
+.sistema-london h3{
+    color: #A9A9A9;
+    padding-left: 110px;
+}
+
+.sistema-london p{
+    float: right;
+    color: white;
+    width: 600px;
+    margin-right: 40px;
+    margin-top: 70px;
+    margin-bottom: 160px;
+    text-transform: uppercase; 
+    padding-left: 0px;
+    padding-right: 150px;
+    padding-top: 30px;
+    text-align:justify;
+    font-size: 12px;
+}
+
+.sistema-london2 img{
+    float: left;
+    width: 600px;
+    height: 300px;
+    padding-left: 100px;
+    margin-bottom: 60px;
+}
+
+.sistema-london2 p{
+    float: right;
+    color: white;
+    width: 600px;
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+    text-transform: uppercase; 
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 150px;
+    text-align:justify;
+    font-size: 12px;
+}
+
+.indio-rei h3{
+    color: #A9A9A9;
+    padding-left: 110px;
+}
+
+.indio-rei img{
+    float: left;
+    width: 600px;
+    height: 300px;
+    padding-left: 100px;
+    margin-bottom: 60px;
+}
+
+.indio-rei p{
+    float: right;
+    color: white;
+    width: 600px;
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    text-transform: uppercase; 
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 150px;
+    text-align:justify;
+    font-size: 12px;
+}
+
+.abertura-gambito h3{
+    color: #A9A9A9;
+    padding-left: 110px;
+}
+
+.abertura-gambito img{
+    float: left;
+    width: 600px;
+    height: 300px;
+    padding-left: 100px;
+    margin-bottom: 60px;
+}
+
+.abertura-gambito p{
+    float: right;
+    color: white;
+    width: 600px;
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-transform: uppercase; 
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 150px;
+    text-align:justify;
+    font-size: 12px;
+}
+
+.defesa-francesa h3{
+    color: #A9A9A9;
+    padding-left: 110px;
+}
+
+.defesa-francesa img{
+    float: left;
+    width: 600px;
+    height: 300px;
+    padding-left: 100px;
+    margin-bottom: 60px;
+}
+
+.defesa-francesa p{
+    float: right;
+    color: white;
+    width: 600px;
+    margin-right: 40px;
+    margin-top: 80px;
+    margin-bottom: 170px;
+    text-transform: uppercase; 
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 150px;
+    text-align:justify;
+    font-size: 12px;
+}
+
+.siciliana h3{
+    color: #A9A9A9;
+    padding-left: 110px;
+}
+
+.siciliana img{
+    float: left;
+    width: 600px;
+    height: 300px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+
+.siciliana p{
+    float: right;
+    color: white;
+    width: 600px;
+    margin-right: 40px;
+    margin-top: 80px;
+    margin-bottom: 160px;
+    text-transform: uppercase; 
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 150px;
+    text-align:justify;
+    font-size: 12px;
+}
+
+.siciliana2 img{
+    float: left;
+    width: 600px;
+    height: 300px;
+    padding-left: 100px;
+    margin-bottom: 60px;
+}
+
+.siciliana2 p{
+    float: right;
+    color: white;
+    width: 600px;
+    margin-right: 40px;
+    margin-top: 80px;
+    text-transform: uppercase; 
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 150px;
+    text-align:justify;
+    font-size: 12px;
+}
+
